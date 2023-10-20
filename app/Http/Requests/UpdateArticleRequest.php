@@ -2,9 +2,7 @@
 
 namespace App\Http\Requests;
 
-use App\Models\Article;
 use Illuminate\Foundation\Http\FormRequest;
-use Illuminate\Support\Facades\Gate;
 
 class UpdateArticleRequest extends FormRequest
 {

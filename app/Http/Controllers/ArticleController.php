@@ -2,14 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Actions\ArticleDeleteAction;
-use App\Actions\GetAllArticlesAction;
-use App\Actions\GetArticleByIDAction;
-use App\Actions\StoreArticleAction;
-use App\Actions\UpdateArticleAction;
+use App\Actions\Article\ArticleDeleteAction;
+use App\Actions\Article\GetAllArticlesAction;
+use App\Actions\Article\GetArticleByIDAction;
+use App\Actions\Article\StoreArticleAction;
+use App\Actions\Article\UpdateArticleAction;
 use App\Http\Requests\StoreArticleRequest;
 use App\Http\Requests\UpdateArticleRequest;
-use Illuminate\Http\Request;
 
 class ArticleController extends Controller
 {
