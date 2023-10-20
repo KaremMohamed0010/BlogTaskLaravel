@@ -13,15 +13,15 @@ git clone https://github.com/KaremMohamed0010/BlogTaskLaravel.git
 ```bash
 composer install
 ```
-3- Generate env
+3- Generate env open terminal and copy the command below
 ```bash
 cp .env.example .env
 ```
-4- Generate key
+4- Generate key open terminal and copy the command below
 ```bash
 php artisan key:generate
 ```
-5- Change database credentials in your env
+5- open the source code in your editor and Change database credentials in your env
 
 ```bash
 DB_DATABASE=YourDatabaseName
@@ -45,12 +45,6 @@ php artisan db:seed
 9- run the application
 ```bash
 php artisan serve
-```
-
-## Usage
-1- create  
-```bash
-composer install
 ```
 
 ## Usage
